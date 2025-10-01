@@ -1,0 +1,27 @@
+# Python caches and virtualenvs
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Large data/model artifacts (keep out of Git)
+*.csv
+*.tsv
+*.parquet
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.onnx
+*.pt
+*.pth
+*.ckpt
+models/
+datasets/
+logs/
